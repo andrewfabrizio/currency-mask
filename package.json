@@ -1,0 +1,36 @@
+{
+  "name": "currency-mask",
+  "version": "1.0.0",
+  "description": "Sandbox for testing an input currency mask.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "node server.js",
+    "start": "webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewfabrizio/currency-mask.git"
+  },
+  "author": "A. Fabrizio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewfabrizio/currency-mask/issues"
+  },
+  "homepage": "https://github.com/andrewfabrizio/currency-mask#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "rxjs": "^6.5.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.38.0",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}
